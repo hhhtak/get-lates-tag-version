@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# 実行したいディレクトリに移動する
+cd ../hoge
+
 git fetch > /dev/null
 
 TAGS=`git tag -l`
